@@ -39,7 +39,7 @@
 <script setup>
 import { onMounted } from 'vue'
 import { useClientStore } from '../stores/clientesStore.js'
-import ClientModal from '../componentes/ClientesModal.vue'
+import ClientModal from '../componentes/clientesModal.vue'
 
 const store = useClientStore()
 
